@@ -1,0 +1,51 @@
+/* ProductForm.css */
+
+.product-form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .product-form h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .product-form form {
+    width: 100%;
+  }
+  
+  .product-form .form-group {
+    /* margin-bottom: 1rem; */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-form label {
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  .product-form input,
+  .product-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .product-form button[type='submit'] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .product-form button[type='submit']:hover {
+    background-color: #555;
+  }
+  

@@ -1,0 +1,42 @@
+/* UserList.css */
+.user-list-container {
+    max-width: 500px;
+    margin: 0 auto;
+    /* margin-top: 83px; */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .user-list-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .user-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-list-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .user-username {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .user-email {
+    color: #555;
+  }
+  
+  .user-status {
+    font-size: 14px;
+    color: #007bff;
+  }
+  
